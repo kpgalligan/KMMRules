@@ -12,12 +12,12 @@ kotlin {
     iosSimulatorArm64()
 
     sourceSets {
-        val commonMain by getting {
+        val commonMain by getting /*{
             dependencies {
                 implementation(project(":breeds"))
                 api(project(":analytics"))
             }
-        }
+        }*/
         val commonTest by getting {
             dependencies {
                 implementation(libs.bundles.shared.commonTest)
@@ -40,7 +40,7 @@ kotlin {
         extraSpecAttributes["libraries"] = "'c++', 'sqlite3'"
 
         framework {
-            export(project(":analytics"))
+//            export(project(":analytics"))
             isStatic = true
         }
     }
