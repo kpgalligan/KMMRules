@@ -52,5 +52,5 @@ kmmbridge {
     mavenPublishArtifacts()
     githubReleaseVersions()
     spm()
-    cocoapods("git@github.com:kpgalligan/KotlinPodspecs.git")
+    //cocoapods("git@github.com:kpgalligan/KotlinPodspecs.git")
 }
