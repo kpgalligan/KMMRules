@@ -8,6 +8,7 @@ pluginManagement {
     }
 }
 
+// I have a comment
 enableFeaturePreview("VERSION_CATALOGS")
 
 include(/*"breeds", "analytics",*/ "allshared")
