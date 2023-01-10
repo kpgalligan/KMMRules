@@ -34,7 +34,7 @@ kotlin {
     }
 
     cocoapods {
-        summary = "KMMBridgeKickStart sample"
+        summary = "KMMBridgeKickStart sample less"
         homepage = "https://www.touchlab.co"
         ios.deploymentTarget = "13.5"
         extraSpecAttributes["libraries"] = "'c++', 'sqlite3'"

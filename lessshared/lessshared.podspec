@@ -1,24 +1,24 @@
 Pod::Spec.new do |spec|
-    spec.name                     = 'allshared'
+    spec.name                     = 'lessshared'
     spec.version                  = '0.8'
     spec.homepage                 = 'https://www.touchlab.co'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = ''
-    spec.summary                  = 'KMMBridgeKickStart sample'
-    spec.vendored_frameworks      = 'build/cocoapods/framework/allshared.framework'
+    spec.summary                  = 'KMMBridgeKickStart sample less'
+    spec.vendored_frameworks      = 'build/cocoapods/framework/lessshared.framework'
                 
     spec.ios.deployment_target = '13.5'
                 
                 
     spec.pod_target_xcconfig = {
-        'KOTLIN_PROJECT_PATH' => ':allshared',
-        'PRODUCT_MODULE_NAME' => 'allshared',
+        'KOTLIN_PROJECT_PATH' => ':lessshared',
+        'PRODUCT_MODULE_NAME' => 'lessshared',
     }
                 
     spec.script_phases = [
         {
-            :name => 'Build allshared',
+            :name => 'Build lessshared',
             :execution_position => :before_compile,
             :shell_path => '/bin/sh',
             :script => <<-SCRIPT
